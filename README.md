@@ -14,7 +14,7 @@ This program has multiple methods that run in one single class. It will be based
 The Retry logic is based on response code from the APIs. Our retry case is on 429/499-599 error codes. Every reattempt will happen after stoppageTime amount of rest. The program will retry up to five times with the stoppageTime doubling every time. After 5 failed attempts, it will stop and output error to console.
 
 ## Usage
-Unzip com to have required libraries.
+## 1) Unzip com to have required libraries.
 Once that's done:
-To compile type: javac WeatherCityRetriever.java
-To run type: java WeatherCityRetriever <city name>
+## 2) To compile type: javac WeatherCityRetriever.java
+## 3) To run type: java WeatherCityRetriever <city name>
