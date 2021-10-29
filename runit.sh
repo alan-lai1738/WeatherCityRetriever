@@ -1,0 +1,2 @@
+javac WeatherCityRetriever.javac
+java WeatherCityRetriever Seattle
